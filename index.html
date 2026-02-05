@@ -1,9 +1,4 @@
 <!DOCTYPE HTML>
-<!--
-	Solid State by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
 		<title>Syed Badr Mohyuddin</title>
@@ -11,13 +6,45 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		
+		<style>
+			/* Tighten the header spacing */
+			#wrapper > header {
+				margin-bottom: 0 !important;
+				padding-bottom: 1.5em !important;
+			}
+			#wrapper > header .inner {
+				padding-bottom: 0 !important;
+			}
+
+			/* Reduce the huge padding on the main content wrapper */
+			.wrapper {
+				padding-top: 2em !important; /* Reduced from default */
+				padding-bottom: 2em !important;
+			}
+			
+			/* Reduce gaps around headings */
+			h3.major {
+				margin-top: 0 !important;
+				margin-bottom: 1em !important;
+			}
+			
+			/* Tighten space between "About Me" and "Projects" */
+			section.features {
+				margin-top: 2em !important;
+			}
+
+			/* Reduce Footer gap */
+			#footer {
+				padding-top: 2em !important;
+				margin-top: 0 !important;
+			}
+		</style>
 	</head>
 	<body class="is-preload">
 
-		<!-- Page Wrapper -->
-			<div id="page-wrapper">
-				<!-- Wrapper -->
-					<section id="wrapper">
+		<div id="page-wrapper">
+				<section id="wrapper">
 						<header>
 							<div class="inner">
 								<h2>Syed Badr Mohyuddin</h2>
@@ -25,14 +52,13 @@
 							</div>
 						</header>
 
-						<!-- Content -->
-							<div class="wrapper">
+						<div class="wrapper">
 								<div class="inner">
 
 									<h3 class="major">About Me</h3>
 									<p>I’m a software engineering student with a strong passion for coding and building creative solutions. I enjoy working with Java and Python for backend development, SQL for data management, and crafting responsive, user-friendly interfaces with HTML, CSS, and Bootstrap. I’m always eager to learn, solve problems, and turn ideas into real-world applications.</p>
 									
-									<h3 class="major">Projects</h3>
+									<h3 class="major" style="margin-top: 2em !important;">Projects</h3>
 
 									<section class="features">
 										<article>
@@ -52,12 +78,10 @@
 
 					</section>
 
-				<!-- Footer -->
-					<section id="footer">
+				<section id="footer">
 						<div class="inner">
 							<h2 class="major">Get in touch</h2>
 							<ul class="contact">
-								</li>
 								<li class="icon solid fa-envelope"><a href="mailto:badrphotos22@gmail.com">badrphotos22@gmail.com</a></li>
 								<li class="icon brands fa-linkedin"><a href="https://www.linkedin.com/in/syed-badr-mohyuddin/">linkedin.com/in/syed-badr-mohyuddin</a></li>
 							</ul>
@@ -69,8 +93,7 @@
 
 			</div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
@@ -79,5 +102,6 @@
 
 	</body>
 </html>
+
 
 
